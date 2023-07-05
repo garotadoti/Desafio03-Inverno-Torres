@@ -1,3 +1,130 @@
-*{
-    margin
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Roboto:wght@100&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4B93BF;   
+}
+figure {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+}
+nav {
+    width: 40vw;
+}
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    height: 15vh;
+    color: #ffffff;
+}
+
+h2 {
+    width: 10vw;
+    font-weight: 500;
+    color: #ffffff;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 40vw;
+}
+li:hover{
+    text-decoration: underline blue;
+}
+main figure img:hover {
+    transform: scale(1.1);
+    filter: opacity(1);
+    transition: .6s ease-in-out;
+}
+.PrimeiraParteMain {
+    background-color: #E4EEF1;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.PrimeiraParteMain P {
+    width: 45vw;
+    color: #0F468C;
+    font-size: 18px;
+}
+.PrimeiraParteMain img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+}
+.SegundaSessaoMain {
+    display: flex;
+    background-color: #4B93BF;
+    align-items: center;
+    justify-content: space-evenly;
+    height:40vh;
+}
+h1 {
+    width: 38vw;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 25px;
+    word-spacing: 6px;
+}
+.container02 figure {
+    display: flex;
+    align-items: center;
+
+}
+.TerceiraSessaoMain {
+    background-color:#E4EEF1;
+    align-items: center;
+}
+.QuartaSessaoMain {
+ display: flex;
+ align-items: center;
+ justify-content: right;
+}
+.polarnapedra {
+    position: relative;
+    top: 1.4vh;
+    left: 40px;
+}
+.polarandando {
+    position: relative;
+    left: 45px;
+}
+.logoinsta {
+    position: relative;
+    right: 30px;
+    top: 1.0vh;
+}
+.logogit {
+    position: relative;
+    right: 65px;
+    top: 1.4vh;
+}
+footer {
+    background-color: #4B93BF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer p {
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+footer p:hover {
+    text-decoration: underline blue;
+}
+.pinguin {
+    position: relative;
+    left: 230px;
+}
+
